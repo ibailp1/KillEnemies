@@ -1,7 +1,9 @@
 package org.cuatrovientos;
 
-public interface Character {
+import java.io.Serializable;
+
+public interface Character extends Serializable{
 
     boolean isEnemy();
-    
+
 }
